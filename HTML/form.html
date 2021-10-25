@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up Form</title>
+</head>
+
+<body>
+    <h1>Buat Account Baru!</h1>
+    <h2>Sign Up Form</h2>
+    <form action="welcome.html">
+        <!-- textform first name -->
+        <label for="fname">First name:</label><br>
+        <input type="text" id="fname" name="fname" required><br><br>
+        
+        <!-- textform last name -->
+        <label for="lname">Last name:</label><br>
+        <input type="text" id="lname" name="lname" required><br><br>
+        
+        <!-- radiobox gender -->
+        <label for="gender">Gender :</label><br>
+        <input type="radio" id="male" name="gender" value="Male" checked>
+        <label for="male">Male</label><br>
+        <input type="radio" id="female" name="gender" value="Female">
+        <label for="female">Female</label><br>
+        <input type="radio" id="other" name="gender" value="Other">
+        <label for="javascript">Other</label><br></br>
+        
+        
+        <!-- selectbox -->
+        <label for="national">Nasionality:</label></br>
+        <select id="national" name="national">
+            <option value="indonesia">Indonesia</option>
+            <option value="malaysia">Malaysia</option>
+        </select></br></br>
+
+        <!-- checkbox -->
+        <input type="checkbox" id="in_lang" name="in_lang" value="in_lang">
+        <label for="in_lang"> Bahasa Indonesia</label><br>
+        <input type="checkbox" id="my_lang" name="my_lang" value="my_lang">
+        <label for="my_lang"> Bahasa Malaysia</label><br>
+        <input type="checkbox" id="other_lang" name="other_lang" value="other_lang">
+        <label for="other_lang"> Other</label><br>
+        <!-- textarea -->
+        <label for="bio"> Bio:</label></br>
+        <textarea name="bio" rows="10" cols="30">
+        </textarea></br></br>
+
+        <input type="submit" value="Submit">
+    </form>
+</body>
+
+</html>
